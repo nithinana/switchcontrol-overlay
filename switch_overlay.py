@@ -2,20 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 Switch Touch Overlay
-====================
-A clean on-screen Switch-style gamepad for touchscreen Windows laptops/tablets.
-
-It draws flat, semi-transparent buttons on top of your emulator and turns
-multi-touch presses into keyboard presses (the same keys you bind in Ryujinx).
-Touches that do NOT land on a button pass straight through to the game, so
-Ryujinx's own touchscreen support still works.
-
-    python switch_overlay.py                 start the overlay
-    python switch_overlay.py --opacity 0.7   fainter buttons
-    python switch_overlay.py --scale 1.2     bigger buttons
-    python switch_overlay.py --preview p.png write a preview picture and exit
-
-Needs: Windows 10/11, Python 3.8+, and Pillow  (pip install pillow)
 """
 import sys
 import os
